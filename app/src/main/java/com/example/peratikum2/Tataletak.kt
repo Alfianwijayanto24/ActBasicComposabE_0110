@@ -25,3 +25,14 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 
+@Composable
+fun contohColumn(modifier: Modifier) {
+    Column(
+        modifier = modifier
+            .padding(top = 20.dp, start = 20.dp)
+    ) {
+        Text("Helo")
+        Text("word")
+    }
+}
+
