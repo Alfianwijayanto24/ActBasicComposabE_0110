@@ -17,8 +17,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             Peratikum2Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    // Panggil composable layout utama dengan padding dari Scaffold
-                    TataletakBoxColumnRow(
+                    // Memanggil nama fungsi yang baru: TugasLoginBoxColumnRow
+                    TugasLoginBoxColumnRow(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
